@@ -9,11 +9,7 @@
 			float: right;
 		}
 
-		#img2{
-			width:500px;
-			height:400px;
-		}
-
+		
 		.display{
 			
 			display: none;
@@ -24,5 +20,29 @@
 			display: block;
 		}
 		
+		div.background {
+			background:url(./image/img2.jpg);
+			background-size:100% 100%;
+			border: 2px solid black;
+			height:700px;
+			text-align:center;
+			width:100%;
+			opacity:0.7;
+		}
 		
-		
+		.button {
+			font-size:20px;
+			color:black;
+			border: 2px solid;
+			}
+
+		.button:hover{
+			background-color:grey;
+			color:white;
+			}
+
+		#mount{
+			width:400px;
+			height:600px;
+			}
+
